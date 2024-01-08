@@ -1,1 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: mysql://localhost:3306/aboutbook?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 1111
 
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
